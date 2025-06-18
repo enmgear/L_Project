@@ -1,0 +1,21 @@
+// funciones.js
+function toggleChat() {
+  const chatBox = document.getElementById('chatBox');
+  chatBox.classList.toggle('hidden');
+}
+
+// Función para mostrar alerta de compra
+function mostrarAlertaCompra(nombreProducto) {
+  alert('Has seleccionado comprar: ' + nombreProducto);
+}
+
+// Inicializar botones de compra
+window.addEventListener('DOMContentLoaded', () => {
+  const botonesComprar = document.querySelectorAll('.boton-comprar');
+  botonesComprar.forEach(boton => {
+    boton.addEventListener('click', () => {
+      const producto = boton.getAttribute('data-producto');
+      mostrarAlertaCompra(producto);
+    });
+  });
+});

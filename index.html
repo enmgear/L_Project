@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LERIC Solutions</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <img class="logo" src="../Project Leonid/Schemes/logo_row.png" alt="Logo">
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="carousel">
+    <div class="carousel-container">
+      <div class="carousel-slide active" style="background-image: url('https://via.placeholder.com/1200x400?text=Slide+1');">
+        <h2>Welcome to LERIC Solutions</h2>
+      </div>
+      <div class="carousel-slide" style="background-image: url('https://via.placeholder.com/1200x400?text=Slide+2');">
+        <h2>Reliable IT Solutions</h2>
+      </div>
+      <div class="carousel-slide" style="background-image: url('https://via.placeholder.com/1200x400?text=Slide+3');">
+        <h2>Empowering Your Business</h2>
+      </div>
+    </div>
+    <button class="carousel-btn prev">&lt;</button>
+    <button class="carousel-btn next">&gt;</button>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <div class="service it-support">
+      <h3>Remote IT Support</h3>
+      <p>Get fast and efficient technical assistance without leaving your home or office. Our remote IT support team can troubleshoot software issues, perform system updates, and configure devices securely over the internet.</p>
+    </div>
+    <div class="service on-site">
+      <h3>On-Site Field Technician Service</h3>
+      <p>Need hands-on help? Our expert field technicians come directly to your location to diagnose and resolve hardware problems, install equipment, or handle complex technical setups.</p>
+    </div>
+    <div class="service data-recovery">
+      <h3>Data Recovery Services</h3>
+      <p>Lost important files? We specialize in recovering deleted, corrupted, or inaccessible data from hard drives, SSDs, USBs, and more—whether due to hardware failure, accidental deletion, or malware.</p>
+    </div>
+    <div class="service networking">
+      <h3>Wiring and Networking Installation</h3>
+      <p>Ensure a reliable and secure network with our professional wiring and networking services. We handle everything from Ethernet cabling to router and switch configuration for homes and businesses.</p>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about" class="about-us">
+    <h2>About LERIC Solutions</h2>
+    <p>LERIC Solutions is a dedicated IT solutions provider offering reliable, professional, and affordable tech support for individuals and businesses alike. With a strong focus on customer satisfaction, we specialize in remote IT support, on-site field services, data recovery, and network installation and wiring. Whether you're facing a sudden system failure, need help setting up a secure network, or require expert data recovery, our experienced technicians are here to help—fast and efficiently. At LERIC, we combine technical expertise with personalized service to keep your technology running smoothly. Your tech, our priority</p>
+  </section>
+
+  <!-- Contact Us Section -->
+  <section id="contact" class="contact-form">
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="service">Service Required:</label>
+      <select id="service" name="service" required>
+        <option value="service-a">Remote IT Support</option>
+        <option value="service-b">On-Site Field Technician Service</option>
+        <option value="service-c">Data Recovery Services</option>
+        <option value="service-d">Wiring and Networking Installation</option>
+      </select>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <img class="logo-footer" src="../Project Leonid/Schemes/logo-footer.png" alt="Logo">
+    <p>&copy; 2025 LERIC Solutions. All rights reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
